@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+
+#home-header-left{
+    padding: 15rem 5rem;
+    max-width: 500px;
+    float: left;
+}
+.title{
+    font-size: 48px;
+    color: rgb(60, 60, 60);
+}
+.info-para{
+    font-size: 22px;
+    padding-bottom: 2rem;
+    color: gray;
+}
+#home-header-right{
+    padding-top: 200px;
+    max-width: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 100%);
+    grid-gap: 10px;
+    column-gap: 0;
+}
+.circle-photo{
+    width: 90%;
+    margin-left: 100px;
+}
+.circle-photo1{
+    width: 90%;
+    margin-left: 100px;
+}
+
+@media only screen and (max-width: 875px){
+    #home-header-left{
+        padding: 350px 5rem 6rem 4rem;
+        width:100%;
+        display: block;
+    }
+    .title{
+        font-size: 48px;
+        color: rgb(60, 60, 60);
+    }
+    .info-para{
+        font-size: 22px;
+        padding-bottom: 2rem;
+        color: gray;
+    }
+    #home-header-right{
+        padding-top: 0;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        max-width: 100%;
+        gap: 5px;
+        float: none;
+        padding-right: 50px;
+    }
+    #circle-photo{
+        width: 100%;
+    }
+    #circle-photo1{
+        width: 100%;
+        margin-left: 0px;
+    }
+}

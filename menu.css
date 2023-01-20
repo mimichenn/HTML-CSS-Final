@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+
+.container-menu {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 20px;
+}
+.menu{
+    font-size: 16px;
+}
+.menu-header{
+    text-transform: uppercase;
+    color: rgb(60, 60, 60);
+    font-weight: 500;
+    margin: 0;
+    padding-bottom: 1em;
+    border-bottom: 1px solid rgba(60, 60, 60, 0.374);
+}
+.menu-group{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5em;
+    padding: 1.5em 0;
+}
+.menu-dish{
+    display: flex;
+}
+.menu-dish-image{
+    width: 125px;
+    height: 125px;
+    flex-shrink: 0;
+    object-fit: cover;
+    margin-right: 1.5em;
+}
+.menu-dish-section{
+    flex-grow: 1;
+}
+.menu-dish-header{
+    display: flex;
+    font-weight: 500;
+    justify-content: space-between;
+    margin: 0;
+    color: rgb(60, 60, 60);
+}
+.menu-dish-name{
+    margin-right: 1.5em;
+}
+.menu-dish-descrip{
+    line-height: 1.5;
+    font-weight: 300;
+    color: gray;
+}

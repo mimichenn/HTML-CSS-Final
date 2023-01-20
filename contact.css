@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+.title{
+    font-size: 48px;
+    color: rgb(60, 60, 60);
+    margin-left: 110px;
+}
+.contact-box{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+form{
+    margin: 35px;
+}
+
+.input-field{
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+    font-size: 14px;
+    background-color: rgb(212, 227, 215);
+}
+
+.textarea-field{
+    height: 150px;
+    padding-top: 10px;
+}
+#form-button{
+    border: none;
+    display: block;
+    margin-top: 25px;
+}
+#form-button:hover{
+    color: #206846;
+    border-radius: 15px;
+    border: 2px solid #206846;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 15px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: white;
+    transition: 0.2s;
+}

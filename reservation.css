@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+.title{
+    font-size: 48px;
+    color: rgb(60, 60, 60);
+    margin-left: 110px;
+}
+.reservation-box{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.row1{
+    display: block;
+    width: 99%;
+}
+.row2{
+    display: block;
+    width: 99%;
+}
+.row3{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 20px;
+}
+#time, #seats{
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    border:none;
+    outline: none;
+    font-size: 14px;
+    background-color: rgb(212, 227, 215);
+}
+#date{
+    width: 95%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+    font-size: 14px;
+    background-color: rgb(212, 227, 215);
+}
+
+.input-field{
+    display: block;
+    width: 99%;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border:none;
+    outline: none;
+    font-size: 14px;
+    background-color: rgb(212, 227, 215);
+}
+
+.textarea-field{
+    height: 150px;
+    padding-top: 10px;
+}
+#Message{
+    width: 98%;
+}
+#form-button{
+    border: none;
+    display: block;
+    margin-top: 25px;
+}
+#form-button:hover{
+    color: #206846;
+    border-radius: 15px;
+    border: 2px solid #206846;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 15px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: white;
+    transition: 0.2s;
+}
+label{
+    display: block;
+    font-size: 18px;
+    color:rgb(60, 60, 60);
+}

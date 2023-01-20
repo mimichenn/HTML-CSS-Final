@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservations</title>
+    <link rel="stylesheet" href="components.css">
+    <link rel="stylesheet" href="reservation.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="index.html" class="logo"><img src="photos/logowtext.png" alt="Daily Delights"></a>
+                <nav>
+                        <div class="nav-list-wrap">
+                            <ul>
+                                <li><a href="index.html" class="nav-link">Home</a></li>
+                                <li><a href="menu.html" class="nav-link">Menu</a></li>
+                                <li><a href="about.html" class="nav-link">About</a></li>
+                                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                                <li><a href="reservation.html" class="button button-primary">Reserve Table</a></li>
+                            </ul>
+                        </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <h1 class="title">Reserve a Table</h1>
+    <div class="reservation-box">
+        <div class="row1">
+            <label for="name">First & Last Name</label>
+            <input type="text" id="name" class="input-field" placeholder="Your Name">
+        </div>
+        <div class="row2">
+            <label for="email">Email</label>
+            <input type="email" id="email" class="input-field" placeholder="Email">
+        </div>
+        <div class="row3">
+            <div>
+                <label for="seats">Seats</label>
+                <select id="seats" name="seats">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="Larger Party">Larger Party</option>
+                    </select>
+            </div>
+            <div>
+                <label for="date">Date</label>
+                <input type="date" id="date" name="reserve-date" value="2022-05-22"
+                min="2022-05-22" max="2022-12-31">
+            </div>
+            <div>
+                <label for="time">Time</label>
+                <select id="time" name="time">
+                    <option value="11:00AM">11:00AM</option>
+                    <option value="12:00PM">12:00PM</option>
+                    <option value="1:00PM">1:00PM</option>
+                    <option value="2:00PM">2:00PM</option>
+                    <option value="3:00PM">3:00PM</option>
+                    <option value="4:00PM">4:00PM</option>
+                    <option value="5:00PM">5:00PM</option>
+                    <option value="6:00PM">6:00PM</option>
+                    <option value="7:00PM">7:00PM</option>
+                    <option value="8:00PM">8:00PM</option>
+                    <option value="9:00PM">9:00PM</option>
+                    <option value="10:00PM">10:00PM</option>
+                </select>
+            </div>    
+        </div>
+        <div class="row4">
+            <label for="name">Message</label>
+            <input type="text" class="input-field textarea-field" placeholder="Message">
+            <button type="button" id= "form-button" class="button-primary">Book Reservation</button>
+        </div>
+
+    </div>
+</body>
